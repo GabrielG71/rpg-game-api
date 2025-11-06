@@ -1,0 +1,27 @@
+{
+  "name": "medieval-rpg-api",
+  "version": "1.0.0",
+  "description": "API REST medieval de RPG com Fastify e SQLite",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "rpg",
+    "medieval",
+    "api",
+    "fastify",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "better-sqlite3": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
